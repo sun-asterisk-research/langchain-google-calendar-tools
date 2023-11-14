@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "langchain-google-calendar-tools"
 dynamic = ["version"]
-description = ''
+description = 'This repo walks through connecting to the Google Calendar API.'
 readme = "README.md"
 requires-python = ">=3.7"
 license = "MIT"
@@ -33,9 +33,9 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/unknown/langchain-google-calendar-tools#readme"
-Issues = "https://github.com/unknown/langchain-google-calendar-tools/issues"
-Source = "https://github.com/unknown/langchain-google-calendar-tools"
+Documentation = "https://github.com/sun-asterisk-research/langchain-google-calendar-tools"
+Issues = "https://github.com/sun-asterisk-research/langchain-google-calendar-tools/issues"
+Source = "https://github.com/sun-asterisk-research/langchain-google-calendar-tools"
 
 [tool.hatch.version]
 path = "src/langchain_google_calendar_tools/__about__.py"
